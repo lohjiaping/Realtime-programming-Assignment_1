@@ -12,3 +12,6 @@
 
 ## 3. Screenshot of the Directory 
 <img width="1301" height="735" alt="Image" src="https://github.com/user-attachments/assets/a1552c11-92ac-420d-8f8a-739b38c08221" />
+
+## Description:
+The Java Directory Analysis System is designed to scan a local directory and generate a statistical report of its contents. For testing purposes, a target directory named ResourcesASM1 was created containing 8 .java files, including several files with solved issues. The system implementing a while loop that validates user input. This ensures that the provided path is neither empty nor invalid before proceeding. Once a valid path is confirmed, the system invokes the analyzeDirectory() method. This method will tracing the directory contents, filtering out subdirectories and non-Java files. It also will utilizes the isSolvedIssues() helper method to detect specific keywords within filenames such as Solved, Problem and so on. Finally, the system aggregates these counts and displays the results as demonstrated in the screenshots that i submitted.
